@@ -1,0 +1,53 @@
+<!-- web/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet Intégrateur - Assistant IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="scene">
+    <div class="grid-fx" aria-hidden="true"></div>
+    <div class="glow glow--cyan" aria-hidden="true"></div>
+    <div class="glow glow--violet" aria-hidden="true"></div>
+   
+
+    <div class="container">
+        <header class="app-header">
+            <div class="app-header__badge">
+                <span class="pulse-dot"></span>
+                Legacy Systems / En ligne
+            </div>
+           <h1>Legacy Assistant <span class="accent">// Analyse de code par IA</span></h1>
+            <p class="subtitle">Mémoire persistante &middot; Ollama local &middot; SQL Server</p>
+        </header>
+
+        <main class="chat-shell">
+            <div id="chat-box">
+                <div class="message-row">
+                  <div class="mascot" aria-hidden="true">&lt;/&gt;</div>  
+                    <div class="message assistant">Bonjour ! Comment puis-je vous aider aujourd'hui ?</div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <textarea id="user-input" placeholder="Posez une question ou collez du code ici..." rows="1"></textarea>
+                <button id="send-btn">
+                    <span>Envoyer</span>
+                </button>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="assets/js/chat-ui.js"></script>
+</body>
+</html>
