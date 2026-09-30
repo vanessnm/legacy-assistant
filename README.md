@@ -40,7 +40,7 @@ Legacy Assistant combine une interface Web avec **Ollama**, **Node.js / Express*
 
 La démonstration montre le démarrage de l’application, une interaction avec l’assistant IA ainsi qu’une analyse de code réalisée à l’aide de l’outil Python connecté via MCP.
 
-[▶ Voir la vidéo de démonstration](assets/Assistant_Legacy_Demo.mp4)
+[▶ Voir la vidéo de démonstration](https://youtu.be/IeJ1g_mQHOc)
 
 ## Fonctionnement
 
