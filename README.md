@@ -6,7 +6,7 @@ Legacy Assistant combine une interface Web avec **Ollama**, **Node.js / Express*
 
 ## Aperçu
 
-![Legacy Assistant](assets/Capture-legacy-assistant.png)
+![Legacy Assistant](assets/capture-legacy-assistant.png)
 
 ## Fonctionnalités
 
